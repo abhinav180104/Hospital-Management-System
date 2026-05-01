@@ -28,8 +28,8 @@ const userSchema = new mongoose.Schema({
   nic: {
     type: String,
     required: [true, "NIC Is Required!"],
-    minLength: [13, "NIC Must Contain Only 13 Digits!"],
-    maxLength: [13, "NIC Must Contain Only 13 Digits!"],
+    minLength: [12, "NIC Must Contain Only 12 Digits!"],
+    maxLength: [12, "NIC Must Contain Only 12 Digits!"],
   },
   dob: {
     type: Date,
